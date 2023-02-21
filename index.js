@@ -13,9 +13,9 @@ app.use(cors())
 app.listen(port)
 
 
-// app.get('/', (req, res)=>{
-//     res.send('Api is running successfully')
-// })
+app.get('/', (req, res)=>{
+    res.send('Api is running successfully')
+})
 
 
 app.get('/api/students', (req, res)=>{
